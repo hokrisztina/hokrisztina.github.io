@@ -1,0 +1,127 @@
+body{
+  width:100%;
+  height:100%; 
+  margin:0;
+}
+header{
+  background-image: url("https://i.ibb.co/fn3VHvj/first-website-header.png");
+  height:800px;
+  width:100%;
+}
+.name{
+  padding:160px;
+}
+h2{
+  font-family:'Abril Fatface';
+  margin-top: 150px;
+  margin-left:500px;
+  font-size:80px;
+  font-size:50px;
+}
+h1{
+  font-family:'Abril Fatface';
+  margin-left:500px;
+  font-size:100px;
+  line-height:40%;
+}
+main{
+ width:1500px;
+ min-height:100vh;
+ position:relative;
+}
+.midsection{
+  padding-bottom: 2.5rem;
+}
+.first{
+ font-family:'Josefin Sans';
+ font-size:20px;
+ display:flex;
+ flex-wrap:wrap;
+ justify-content:center;
+ align-items:flex-start;
+}
+.paragraph{
+ margin-top:100px;
+ margin-left:500px;
+}
+li{
+  list-style-type: square;
+  line-height:180%;
+  margin-left:0px;
+  font-family:'Josefin Sans';
+}
+.quote{
+  background: #660066;
+  color:white;
+  font-size:50px;
+  font-family:'Abril Fatface';
+  display:flex;
+  justify-content:center;
+  margin-left:30%; 
+}
+.quote::before{
+  color:white;
+  content: '“ ';
+  font-size:60px;
+}
+.third{
+ font-family:'Josefin Sans';
+ font-size:20px;
+ display:flex;
+ flex-wrap:wrap;
+ align-items:flex-start;
+ margin-left:500px;
+ line-height:130%;
+ margin-bottom:50px;
+}
+h3{
+  font-size:50px;
+  color: #000d33;
+  margin-bottom:0;
+}
+h4{
+  font-size:30px;
+  margin-top:30px;
+  margin-bottom:10px;
+}
+.fifth{
+ font-family:'Josefin Sans';
+ font-size:20px;
+ display:block;
+ flex-wrap:wrap;
+ align-items:flex-start;
+ margin-left:500px;
+ line-height:100%;
+ margin-bottom:50px;
+}
+h5{
+ font-style:italic;
+}
+.seventh{
+ font-family:'Josefin Sans';
+ font-size:20px;
+ display:block;
+ flex-wrap:wrap;
+ align-items:flex-start;
+ margin-left:500px;
+ line-height:100%;
+ margin-bottom:50px;
+ border-bottom:solid black;
+}
+.footer{
+  list-style-type: square;
+  line-height:180%;
+  font-family:'Josefin Sans';
+}
+.title{
+  font-family:'Josefin Sans';
+  font-size:50px;
+  color: #000d33;
+}
+.section{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+ margin-left:500px;
+}
